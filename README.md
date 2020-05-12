@@ -17,15 +17,15 @@
 You must have the following folder structure to be able to run the tester
 
 project:
-  ex2_tester.py
-  hw2.py
-  tests:
-    in:
-      test1.txt
-      test2.txt
-      ...
-    out:
-      out1.txt
-      out2.txt
-      ...
+* ex2_tester.py
+* hw2.py
+* tests:
+* in:
+ * test1.txt
+ * test2.txt
+ * ...
+* out:
+ * out1.txt
+ * out2.txt
+ * ...
     
