@@ -21,11 +21,11 @@ project:
  * hw2.py
  * tests:
  * in:
-  * test1.txt
-  * test2.txt
-  * ...
+   * test1.txt
+   * test2.txt
+   * ...
  * out:
-  * out1.txt
-  * out2.txt
-  * ...
+   * out1.txt
+   * out2.txt
+   * ...
     
