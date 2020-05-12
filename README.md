@@ -1,4 +1,5 @@
 # How to use
+This tester aims to cover as many edge cases as possible whilst giving convinient testing results.
 
 ## So what's it testing
  - [x] All test files located in the `in` folder (assuming there's a matching output file in the `out` folder)
@@ -28,3 +29,13 @@ project:
      * out1.txt
      * out2.txt
      * ...
+
+## How to run
+On your computer you will likely be able to run it with
+```python
+python3 ex2_tester.py
+```
+On the CSL3 server, the default Python3 version is 3.4 so you will need to
+```python
+python3.6 ex2_tester.py
+```
