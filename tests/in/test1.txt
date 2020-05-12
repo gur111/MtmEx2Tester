@@ -1,0 +1,12 @@
+competitor 1 Israel
+competitor 2 USA
+competitor 3 China
+competition swimming 1 timed 100
+competition swimming 2 timed 101
+competition swimming 3 timed 96
+competition high_jump 1 untimed 100
+competition high_jump 2 untimed 102
+competition high_jump 3 untimed 90
+competition road_bike 1 timed 100
+competition road_bike 3 timed 200
+competition road_bike 2 timed 300
