@@ -4,7 +4,7 @@ This tester aims to cover as many edge cases as possible whilst giving convinien
 ## So what's it testing
  - [x] All test files located in the `in` folder (assuming there's a matching output file in the `out` folder)
  - [x] Testing `partA`
- - [ ] Testing `partB`
+ - [x] Testing `partB`
  - [ ] Automagically generates random tests
  - [ ] Automagically fetches tests with edge cases from the internet
 
