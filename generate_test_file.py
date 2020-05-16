@@ -225,3 +225,25 @@ def redirect():
 
 def restore_stdout(stdout):
     os.dup2(stdout, 1)
+
+
+def get_scrambled(file_name, out_file='temp_scrambled.txt'):
+    import random
+    with open(file_name, 'r') as source:
+        data = [(random.random(), line) for line in source]
+    data.sort()
+
+    # split_file_name = os.path.splitext(file_name)
+    scrambled_file_name = out_file
+    with open(scrambled_file_name, 'w') as target:
+        for _, line in data:
+            target.write(line)
+
+    return scrambled_file_name
+
+
+
+if __name__ == "__main__":
+    generate_test_file('test1.txt', 'out1.txt')
+    get_scrambled('test1.txt', 'test1.txt')
+
