@@ -20,6 +20,8 @@ You must have the following folder structure to be able to run the tester
 project:
  * ex2_tester.py
  * hw2.py
+ * Olympics.py
+ * Olympics.so
  * tests:
    * in:
      * test1.txt
