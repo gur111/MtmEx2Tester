@@ -1,11 +1,13 @@
 #!/bin/bash
+set -e
+
 echo "Please choose which python version you want to run ,i.e '3.6'"
 read PYTHON_VER
 echo "how many tests would you like to run ?"
 read NUM_OF_TESTS
-if [ "$num" -gt "150" ]; then
-	echo "Just don't"
-	exit(1)
+if (( NUM_OF_TESTS > 1000 )); then
+        echo "Just don't"
+        exit 1
 fi
 echo "Generating ${NUM_OF_TESTS} Tests..."
 for (( i=1; i<=${NUM_OF_TESTS};i++ ))
