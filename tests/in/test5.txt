@@ -1,0 +1,9 @@
+#test for rearranging the order of rows
+competition test_writing 1 knockout 1
+competition test_writing 2 knockout 2
+competition test_writing 3 knockout 3
+competition test_writing 4 knockout 4
+competitor 1 Israel
+competitor 2 China
+competitor 3 USA
+competitor 4 China

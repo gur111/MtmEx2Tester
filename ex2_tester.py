@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import hw2
-import hw2comp
+# import hw2comp
 import random
 import subprocess
 import os
@@ -9,7 +9,7 @@ import select
 from io import StringIO
 from termcolor import colored
 from time import sleep
-from generate_test_file import generate_test_file
+# from generate_test_file import generate_test_file
 
 
 def get_scrambled(file_name):
@@ -89,27 +89,27 @@ if __name__ == '__main__':
     in_file = 'temp_test.txt'
     out_file = 'temp_test.out'
     # generate_test_file(test_file_path=in_file, out_file_path=out_file)
-    # test_pairs = []
+    test_pairs = []
 
-    # in_path = os.path.join('tests', 'in')
-    # out_path = os.path.join('tests', 'out')
+    in_path = os.path.join('tests', 'in')
+    out_path = os.path.join('tests', 'out')
 
-    # for test_file_name in os.listdir(in_path):
-    #     if not test_file_name.startswith("test"):
-    #         continue
+    for test_file_name in os.listdir(in_path):
+        if not test_file_name.startswith("test"):
+            continue
 
-    #     out_file_name = test_file_name.replace("test", "out")
-    #     test_pairs.append((os.path.join(in_path, test_file_name),
-    #                        os.path.join(out_path, out_file_name)))
+        out_file_name = test_file_name.replace("test", "out")
+        test_pairs.append((os.path.join(in_path, test_file_name),
+                           os.path.join(out_path, out_file_name)))
 
     has_failed = False
     # status_format = '{test_name} partA: {colored("passed", "green") if not has_curr_failed else colored("failed", "red")}'
 
-    for _ in range(100):
-        sleep(0.1)
-        test = (in_file, out_file)
-        generate_test_file(test_file_path=in_file, out_file_path=out_file)
-    # for test in test_pairs:
+    # for _ in range(100):
+    for test in test_pairs:
+        # sleep(0.1)
+        # test = (in_file, out_file)
+        # generate_test_file(test_file_path=in_file, out_file_path=out_file)
         with open(test[1]) as f:
             expected = f.read()
 
