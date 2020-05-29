@@ -1,14 +1,15 @@
-competitor 1 Israel
-competitor 2 USA
-competitor 3 China
-competitor 4 China
-competition swimming 1 timed 100
-competition swimming 2 timed 101
-competition swimming 3 timed 96
-competition high_jump 1 untimed 100
-competition high_jump 2 untimed 102
-competition high_jump 3 untimed 90
-competition high_jump 4 untimed 110
-competition road_bike 1 timed 100
-competition road_bike 3 timed 200
-competition road_bike 2 timed 300
+#two competitors form the same country
+Competitor 3 from China participated in high_jump (untimed) and scored 90
+Competitor 1 from Israel participated in high_jump (untimed) and scored 100
+Competitor 2 from USA participated in high_jump (untimed) and scored 102
+Competitor 4 from China participated in high_jump (untimed) and scored 104
+Competitor 1 from Israel participated in road_bike (timed) and scored 100
+Competitor 3 from China participated in road_bike (timed) and scored 200
+Competitor 2 from USA participated in road_bike (timed) and scored 300
+Competitor 3 from China participated in swimming (timed) and scored 96
+Competitor 1 from Israel participated in swimming (timed) and scored 100
+Competitor 2 from USA participated in swimming (timed) and scored 101
+The winning competitors in high_jump are from: ['China', 'USA', 'Israel']
+The winning competitors in road_bike are from: ['Israel', 'China', 'USA']
+The winning competitors in swimming are from: ['China', 'Israel', 'USA']
+The winner of the Tokyo 2021 Olympic Games is China!
