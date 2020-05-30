@@ -1,7 +1,6 @@
-#test for rearranging the order of rows
 Competitor 1 from Israel participated in test_writing (knockout) and scored 1
 Competitor 2 from China participated in test_writing (knockout) and scored 2
 Competitor 3 from USA participated in test_writing (knockout) and scored 3
 Competitor 4 from China participated in test_writing (knockout) and scored 4
-The winning competitors in high_jump are from: ['Israel', 'China', 'USA']
+The winning competitors in test_writing are from: ['Israel', 'China', 'USA']
 The winner of the Tokyo 2021 Olympic Games is Israel!
